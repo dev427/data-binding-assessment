@@ -42,7 +42,7 @@
 
             <Picker x:Name="country" SelectedItem="{Binding Country}" />
 
-            <Label Text="Current Design was Adopted on" FontAttributes="Bold" />
+            <Label Text="This text was changed" FontAttributes="Bold" />
             <DatePicker MinimumDate="01/01/1700" HorizontalOptions="Start" 
                         Date="{Binding DateAdopted}" />
 
