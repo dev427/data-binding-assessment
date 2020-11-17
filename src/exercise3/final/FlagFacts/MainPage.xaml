@@ -41,11 +41,12 @@
                     Aspect="AspectFit" />
 
             <Picker x:Name="country" SelectedItem="{Binding Country}" />
-
+            <BoxView />
             <Label Text="This text was changed" FontAttributes="Bold" />
-            <DatePicker MinimumDate="01/01/1700" HorizontalOptions="Start" 
+            <Entry Placeholder="Country" />
+            <DatePicker MinimumDate="01/01/1800" HorizontalOptions="Start" 
                         Date="{Binding DateAdopted}" />
-
+            <ProgressBar />
             <Label Text="Has Shield" FontAttributes="Bold" />
             <Switch IsToggled="{Binding IncludesShield}" />
 
@@ -62,6 +63,7 @@
                     <TapGestureRecognizer Tapped="OnMoreInformation" />
                 </Label.GestureRecognizers>
             </Label>
+            
 
         </StackLayout>
     </ScrollView>
