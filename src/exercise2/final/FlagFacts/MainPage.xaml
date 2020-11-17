@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:FlagFacts"
              xmlns:eff="clr-namespace:FlagFacts.Effects"
              x:Class="FlagFacts.MainPage"
-             Title="Fun with Flags">
+             Title="Flags Fun Pro">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Previous"
