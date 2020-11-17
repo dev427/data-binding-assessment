@@ -51,6 +51,7 @@
 
             <Label Text="Fun Fact" FontAttributes="Bold" />
             <Label Text="{Binding Description}" />
+            <Label Text="This is The Country Flag" />
 
             <Label Text="More Information" Margin="0,0,10,0"
                     TextColor="Red" HorizontalOptions="End">
